@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const RandomNumberDisplay = () => {
   const [randomNumber, setRandomNumber] = useState(1); 
-  const host = 'http://localhost:3000';
-
+  const host = 'https://challenge3-backend.vercel.app'
   const fetchRandomNumber = async () => {
     try {
       const response = await fetch(`${host}/api/random`);
