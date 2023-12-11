@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const RandomNumberDisplay = () => {
-  const [randomNumber, setRandomNumber] = useState(1); 
+  const [randomNumber, setRandomNumber] = useState(10); 
   const host = 'https://challenge3-backend.vercel.app'
   const fetchRandomNumber = async () => {
     try {
